@@ -1,0 +1,191 @@
+C-dur:
+  name: C-dur
+  parallel: a-moll
+  dominant: G-dur
+  subdominant: F-dur
+  gammas: 
+    major: c - d - e ^ f - g - a - h ^ c 
+
+Des-dur:
+  name: Des-dur
+  parallel: b-moll
+  dominant: As-dur
+  subdominant: Ges-dur
+  gammas:
+    major: des - es - f ^ ges - as - b - c ^ des
+
+b-moll:
+  name: b-moll
+  parallel: Des-dur
+  dominant: f-moll, F-dur
+  subdominant: es-moll
+  gammas:
+    natural minor: b - c ^ des - es - f ^ ges - as - b
+
+As-dur:
+  name: As-dur
+  parallel: f-moll
+  dominant: Es-dur
+  subdominant: Des-dur
+  gammas:
+    major: as - b - c ^ des - es - f - g ^ as
+
+f-moll:
+  name: f-moll
+  parallel: As-dur
+  dominant: c-moll, C-dur
+  subdominant: b-moll
+  gammas:
+    natural minor: f - g ^ as - b - c ^ des - es - f
+
+Es-dur:
+  name: Es-dur
+  parallel: c-moll
+  dominant: B-dur
+  subdominant: As-dur
+  gammas:
+    major: es - f - g ^ as - b - c - d ^ es
+
+B-dur:
+  name: B-dur
+  parallel: g-moll
+  dominant: F-dur
+  subdominant: Es-dur
+  gammas:
+    major: b - c - d ^ es - f - g - a ^ b
+
+g-moll:
+  name: g-moll
+  parallel: B-dur
+  dominant: d-moll, D-dur
+  subdominant: c-moll
+  gammas:
+    natural minor: g - a ^ b - c - d ^ es - f - g
+
+F-dur:
+  name: F-dur
+  parallel: d-moll
+  dominant: C-dur
+  subdominant: B-dur
+  gammas:
+    major: f - g - a ^ b - c - d - e ^ f
+
+d-moll:
+  name: d-moll
+  parallel: F-dur
+  dominant: a-moll, A-dur
+  subdominant: g-moll
+  gammas:
+    natural minor: d - e ^ f - g - a ^ b - c - d
+
+a-moll:
+  name: a-moll
+  parallel: C-dur
+  dominant: e-moll, E-dur
+  subdominant: d-moll
+  gammas:
+    natural minor: a - h ^ c - d - e ^ f - g - a
+
+G-dur:
+  name: G-dur
+  parallel: e-moll
+  dominant: D-dur
+  subdominant: C-dur
+  gammas:
+    major: g - a - h ^ c - d - e - fis ^ g
+
+e-moll:
+  name: e-moll
+  parallel: G-dur
+  dominant: h-moll, H-dur
+  subdominant: a-moll
+  gammas:
+    natural minor: e - fis ^ g - a - h ^ c - d - e
+
+D-dur:
+  name: D-dur
+  parallel: h-moll
+  dominant: A-dur
+  subdominant: G-dur
+  gammas:
+    major: d - e - fis ^ g - a - h - cis ^ d
+
+h-moll:
+  name: h-moll
+  parallel: D-dur
+  dominant: fis-moll, Fis-dur
+  subdominant: e-moll
+  gammas:
+    natural minor: h - cis ^ d - e - fis ^ g - a - h
+
+A-dur:
+  name: A-dur
+  parallel: fis-moll
+  dominant: E-dur
+  subdominant: D-dur
+  gammas:
+    major: a - h - cis ^ d - e - fis - gis ^ a
+
+fis-moll:
+  name: fis-moll
+  parallel: A-dur
+  dominant: cis-moll, Cis-dur
+  subdominant: h-moll
+  gammas:
+    natural minor: fis - gis ^ a - h - cis ^ d - e - fis
+
+E-dur:
+  name: E-dur
+  parallel: cis-moll
+  dominant: H-dur
+  subdominant: A-dur
+  gammas:
+    major: e - fis - gis ^ a - h - cis - dis ^ e
+
+H-dur:
+  name: H-dur
+  parallel: gis-moll
+  dominant: Fis-dur
+  subdominant: E-dur
+  gammas:
+    major: h - cis - dis ^ e - fis - gis - ais ^ h
+
+gis-moll:
+  name: gis-moll
+  parallel: H-dur
+  dominant: dis-moll, Dis (Es)-dur
+  subdominant: cis-moll
+  gammas:
+    natural minor: gis - ais ^ h - cis - dis ^ e - fis - gis
+
+Fis-dur:
+  name: Fis-dur
+  parallel: dis-moll
+  dominant: Cis-dur
+  subdominant: H-dur
+  gammas:
+    major: fis - gis - ais ^ h - cis - dis - eis ^ fis
+
+dis-moll:
+  name: dis-moll
+  parallel: Fis-dur
+  dominant: ais-moll, Ais (B)-dur
+  subdominant: gis-moll
+  gammas:
+    natural minor: dis - eis ^ fis - gis - ais ^ h - cis - dis
+
+c-moll:
+  name: c-moll
+  parallel: Es-dur
+  dominant: g-moll, G-dur
+  subdominant: f-moll
+  gammas:
+    natural minor: c - d ^ es - f - g ^ as - b - c
+
+cis-moll:
+  name: cis-moll
+  parallel: E-dur
+  dominant: gis-moll, Gis-dur
+  subdominant: fis-moll
+  gammas:
+    natural minor: cis - dis ^ e - fis - gis ^ a - h - cis
